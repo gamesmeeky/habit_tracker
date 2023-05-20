@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(160, 157, 157);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25vh;
+    background-color: rgb(160, 158, 158);
+    color: white;
+    border: none;
+    
+}
+.card a{
+    margin: 3rem;
+    width: 15rem;
+    height: 3.5rem;
+}
+.card-body a{
+    background-color: white;
+    color: gray;
+}
+.card-body a:hover{
+    background: linear-gradient(rgb(196, 185, 185),white,rgb(185, 172, 172));
+    color: gray;
+    
+}
